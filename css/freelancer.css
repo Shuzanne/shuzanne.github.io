@@ -476,3 +476,7 @@ span.reverse {
   unicode-bidi: bidi-override;
   direction: rtl;
 }
+
+.col-lg-4 col-lg-offset-2 {
+  text-align: center;
+}
