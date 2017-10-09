@@ -114,7 +114,7 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-nav li.active a {
   color: #f63e67;
-  background: #fec558;
+  /*background: #fec558;*/
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
@@ -493,5 +493,9 @@ span.reverse {
 }
 
 .navbar-brand {
-  padding: 0;
+  padding: 0 0 60px 0;
+}
+
+#bs-example-navbar-collapse-1 {
+  padding-top: 5px;
 }
