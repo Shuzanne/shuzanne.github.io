@@ -491,3 +491,7 @@ span.reverse {
 .col-lg-8 {
   text-align: left;
 }
+
+.navbar-brand {
+  padding: 0;
+}
