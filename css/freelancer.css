@@ -65,7 +65,7 @@ header .intro-text .skills {
   text-align: center;
 }
 @media (min-width: 768px) {
-  *header .container {
+  header .container {
     padding-top: 200px;
     padding-bottom: 100px;
   }
@@ -90,13 +90,14 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-brand {
   color: lightgray;
+  padding: 20px 0 0 0;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
   color: #411cfd;
-  top: 10px;
+  /*top: 10px;*/
   align-content: center;
 
 }
@@ -138,7 +139,7 @@ header .intro-text .skills {
 }
 @media (min-width: 768px) {
   .navbar-custom {
-    padding: 25px 0;
+    padding: 35px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
@@ -150,10 +151,10 @@ header .intro-text .skills {
     transition: all 0.3s;
   }
   .navbar-custom.affix {
-    padding: 10px 0;
+    padding: 35px 0;
   }
   .navbar-custom.affix .navbar-brand {
-    font-size: 1.5em;
+    /*font-size: 1.5em;*/
   }
 }
 section {
