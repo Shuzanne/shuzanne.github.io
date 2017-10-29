@@ -117,7 +117,6 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-nav li.active a {
   color: black;
-  /*background: #fec558;*/
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
@@ -132,14 +131,11 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  /*background-color: #18BC9C;*/
   background-color: white;
   color: blue;
-  /*border-color: #18BC9C;*/
 }
 @media (min-width: 768px) {
   .navbar-custom {
-    padding: 35px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
@@ -151,7 +147,7 @@ header .intro-text .skills {
     transition: all 0.3s;
   }
   .navbar-custom.affix {
-    padding: 35px 0;
+    padding: 15px 0;
   }
   .navbar-custom.affix .navbar-brand {
     /*font-size: 1.5em;*/
@@ -166,11 +162,11 @@ section h2 {
 }
 section.success {
   color: black;
-  padding-top: 75px;
+  padding-top: 35px;
 }
 @media (max-width: 767px) {
   section {
-    padding: 75px 0;
+    padding: 25px 0;
   }
   section.first {
     padding-top: 75px;
@@ -517,7 +513,7 @@ fieldset[disabled] .btn-success.active {
 
 @media (min-width: 1200px) {
   .col-lg-offset-2 {
-      margin-left: 7.666667%;
+      /*margin-left: 7.666667%;*/
   }
 }
 .aboutme-img {
