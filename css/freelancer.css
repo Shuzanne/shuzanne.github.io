@@ -8,7 +8,7 @@ body {
   overflow-x: hidden;
 }
 p {
-  font-size: 20px;
+  font-size: 1.25em;
 }
 p.small {
   font-size: 16px;
@@ -66,8 +66,8 @@ header .intro-text .skills {
 }
 @media (min-width: 768px) {
   header .container {
-    padding-top: 200px;
-    padding-bottom: 100px;
+    padding-top: 120px;
+    padding-bottom: 55px;
   }
   header .intro-text .name {
     font-size: 2em;
@@ -159,7 +159,7 @@ header .intro-text .skills {
   }
 }
 section {
-  padding: 100px 0;
+  padding: 0 0 100px 0;
 }
 section h2 {
   margin: 0;
@@ -512,4 +512,16 @@ span.reverse {
 
 #bs-example-navbar-collapse-1 {
   padding-top: 5px;
+}
+
+@media (min-width: 1200px) {
+  .col-lg-8 {
+      width: 73.666667%; 
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-lg-offset-2 {
+      margin-left: 7.666667%;
+  }
 }
