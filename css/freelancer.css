@@ -198,13 +198,35 @@ section.success {
 
 .categ-design:hover {
   background: url("../img/portfolio/animated-title-design.gif") no-repeat;
+  background-size: 100%;
 }
 .categ-illustration:hover {
   background: url("../img/portfolio/animated-title-illustration.gif") no-repeat;
+  background-size: 100%;
 }
 .categ-animation:hover {
   background: url("../img/portfolio/animated-title-animation.gif") no-repeat;
+  background-size: 100%;
 }
+
+@media (max-width: 767px) {
+  .img-desktop {
+    display:none;
+  }
+  .img-mobile {
+    display:block;
+  }
+}
+
+@media (min-width: 768px) {
+  .img-desktop {
+    display:block;
+  }
+  .img-mobile {
+    display:none;
+  }
+}
+
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
   position: absolute;
   width: 100%;
