@@ -592,7 +592,7 @@ fieldset[disabled] .btn-success.active {
     float: left;
 }
 .portfolio-link:hover img {
-    opacity: 0.5;
+    opacity: 0.3;
 }
 
 .portfolio-link:hover .txt-over {
@@ -607,8 +607,8 @@ fieldset[disabled] .btn-success.active {
 }
 
 .text {
-    color: black;
-    font-family: Verdana, sans-serif;
+    color: slateblue;
+    font-family: Rubik, sans-serif;
     padding: 16px 32px;
     margin: 0;
 
