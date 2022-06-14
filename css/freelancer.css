@@ -29,7 +29,7 @@ h4,
 h5,
 h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
+  text-transform: uppercase, lowercase;
   font-weight: 400;
   text-align: center;
 
