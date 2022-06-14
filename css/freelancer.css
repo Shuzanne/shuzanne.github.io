@@ -89,7 +89,7 @@ header .intro-text .skills {
   outline: none;
 }
 .navbar-custom .navbar-brand {
-  color: lightgray;
+  color: #666;
   padding: 20px 0 0 0;
 }
 .navbar-custom .navbar-brand:hover,
@@ -105,7 +105,7 @@ header .intro-text .skills {
   letter-spacing: 2px;
 }
 .navbar-custom .navbar-nav li a {
-  color: lightgray;
+  color: #666;
 }
 .navbar-custom .navbar-nav li a:hover {
   color: #411cfd;
@@ -125,7 +125,7 @@ header .intro-text .skills {
   background: #ffffff;
 }
 .navbar-custom .navbar-toggle {
-  color: lightgray;
+  color: #666;
   text-transform: uppercase;
   border-color: white;
 }
@@ -584,6 +584,39 @@ fieldset[disabled] .btn-success.active {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+
+.portfolio-link {
+    position: relative;
+    float: left;
+}
+.portfolio-link:hover img {
+    opacity: 0.3;
+}
+
+.portfolio-link:hover .txt-over {
+    opacity: 1;
+}
+
+.txt-over {
+    transition: .5s ease;
+    opacity: 0;
+    position: relative;
+    text-align: center;
+}
+
+.text {
+    color: slateblue;
+    font-family: Rubik, sans-serif;
+    padding: 16px 32px;
+    margin: 0;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 2rem;
+    transform: translate(-50%, -300%);
 }
 
 
