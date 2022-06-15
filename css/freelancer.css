@@ -606,6 +606,7 @@ fieldset[disabled] .btn-success.active {
     text-align: center;
 }
 
+@media (min-width: 767px) {
 .text {
     color: slateblue;
     font-family: Rubik, sans-serif;
@@ -618,5 +619,11 @@ fieldset[disabled] .btn-success.active {
     font-size: 2rem;
     transform: translate(-50%, -300%);
 }
+}
 
+@media (max-width: 766px) {
+    .text {
+        visibility: hidden;
+    }
+}
 
